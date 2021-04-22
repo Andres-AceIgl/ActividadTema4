@@ -7,7 +7,7 @@ public class AleatorioEmple {
 	public static void main(String[] args) throws IOException {
 		crear();
 		leer();
-		System.out.println("Linea de visualización");
+		System.out.println("Primera linea de visualización");
 	}
 
 	public static void leer() throws IOException {
@@ -42,6 +42,7 @@ public class AleatorioEmple {
 			System.out.println(" ------------------------------------------");
 		} else 
 			System.out.println(" ---------FICHERO VACÍO --------------------");
+		System.out.println("Segunda linea de visualizacion");
 	}// fin verporconsola
 
 	public static void crear() throws IOException {
